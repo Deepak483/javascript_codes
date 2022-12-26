@@ -47,3 +47,4 @@ console.log(...arr, ...arr2);
 console.log(letters.join("--"));
 
 console.log(letters);
+

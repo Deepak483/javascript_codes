@@ -127,8 +127,3 @@ fruits.unshift("jackfruit"); // added from start of the array
 /** includes method gives 'true' or 'false' */
 // console.log(friends.includes('Ram'));//* ouput:true
 // console.log(friends.includes('Raghuvanshi'));//* output:false
-
-
-
-
-

@@ -38,30 +38,41 @@
 
 // let str = 'Hello world!';
 // console.log(str.substring(1, 5));
-function potluckDish(name, dish) {
-  // You only need to implement this function.
+// function potluckDish(name, dish) {
+//   // You only need to implement this function.
 
-let nameFirstIndex = name[0];
-let nameLastIndex = name[name.length - 1];
-let dishFirstIndex = dish[0];
-let dishLastIndex = dish[dish.length - 1];
+// let nameFirstIndex = name[0];
+// let nameLastIndex = name[name.length - 1];
+// let dishFirstIndex = dish[0];
+// let dishLastIndex = dish[dish.length - 1];
 
-if (nameFirstIndex === dishFirstIndex && nameLastIndex === dishLastIndex) {
-  return true;
-} else {
-  return false;
-}
+// if (nameFirstIndex === dishFirstIndex && nameLastIndex === dishLastIndex) {
+//   return true;
+// } else {
+//   return false;
+// }
  
+// }
+
+
+// if (potluckDish("Jhony", "Jelly") !== true)
+//   console.log("Test fails: Expected true for input name = Jhony and dish = Jelly");
+// else
+//   console.log("Sample test case for input name = Jhony and dish = Jelly passed!");
+
+// let name = 'Johny';
+// let dish = 'Jelly';
+
+
+let num = 3;
+let den = 6;
+// console.log(den);
+
+if (num===0 && den === 0) {
+    console.log(num/den);
+} else {
+    console.log(0);
 }
-
-
-if (potluckDish("Jhony", "Jelly") !== true)
-  console.log("Test fails: Expected true for input name = Jhony and dish = Jelly");
-else
-  console.log("Sample test case for input name = Jhony and dish = Jelly passed!");
-
-let name = 'Johny';
-let dish = 'Jelly';
 
 
 
