@@ -64,15 +64,31 @@
 // let dish = 'Jelly';
 
 
-let num = 3;
-let den = 6;
-// console.log(den);
+// let num = 3;
+// let den = 6;
+// // console.log(den);
 
-if (num===0 && den === 0) {
-    console.log(num/den);
-} else {
-    console.log(0);
-}
+// if (num===0 && den === 0) {
+//     console.log(num/den);
+// } else {
+//     console.log(0);
+// }
+
+// let array1 = ['item1', 'item2'];
+// let array2 = array1;
+// console.log("array1",array1);
+// console.log("array2",array2);
+// array1.push('item3');
+
+// console.log(array1);
+// console.log(array2);
+
+const arr = [2.2, 1, 3, 1.9, 2.4, 1.7];
+let sum = 0;
+arr.forEach((num) => sum += num);
+let average = sum / arr.length;
+let fixedValue = average.toFixed(5);
+console.log(average);
 
 
 
