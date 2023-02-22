@@ -23,3 +23,6 @@ function maxInArray(n, arr) {
 let value1 = 'true';
 let value2 = false;
 console.log(value1 === value2);
+
+const ask = require('readline-sync');
+let n = parseInt(ask('enter the size: '));

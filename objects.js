@@ -61,3 +61,6 @@ const deepak = {
 // console.log(deepak.getSummary());
 
 console.log(deepak.getSummary());
+// console.log(deepak.keys());
+console.log(Object.keys(deepak));
+console.log(Object.values(deepak));
