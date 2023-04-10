@@ -1,95 +1,38 @@
-// const str = 'abcdefh';
-// const k1 = 2;
-// const k = 3;
-// console.log(str.charAt(str.length-4));
-// console.log(kthchar);
-// function kthCharFromEnd(str, k) {
-//     return str.charAt(str.length - k);
-// }
+// const grandparent = document.querySelector(".grandparent");
+// const parent = document.querySelector(".parent");
+// const child = document.querySelector(".child");
 
-// const returnKthChar = kthCharFromEnd(str,4);
-// console.log(returnKthChar);
+// grandparent.addEventListener("click", (e) => {
+//   console.log("grandparent is clicked");
+// });
 
-// function checkForSubstr(str, k) {
-  // You only need to implement this function.
-//     let firstIndex = str.indexOf(k);
-//     let lastIndex = str.lastIndexOf(k);
-//     return (firstIndex === lastIndex ? true: false);
-// }
+// parent.addEventListener("click", (e) => {
+//   console.log("parent is clicked");
+// });
 
-// if (checkForSubstr("abcdefghi", "def") !== true)
-//   console.log(
-//     "Test fails: Expected true for input str = 'abcdefghi' and k = 'def'"
-//   );
-// else
-//   console.log(
-//     "Sample test case for input str = 'abcdefghi' and k = 'def' passed!"\
-//   );
+// child.addEventListener("click", (e) => {
+//   console.log("child is clicked");
+// });
 
-// let text = "abcdefghi";
-// let firstIndx = text.lastIndexOf("i");
-// let lastIndx = text.indexOf("i");
-// if (firstIndx === lastIndx) {
-//   console.log("true");
-// } else {
-//   console.log("false");
-// }
+// document.addEventListener("click", (e) => {
+//   console.log("document is clicked");
+// });
 
 
-// let str = 'Hello world!';
-// console.log(str.substring(1, 5));
-// function potluckDish(name, dish) {
-//   // You only need to implement this function.
+const divs = document.querySelectorAll('div');
+document.addEventListener('click', e => {
+  if (e.target.matches('div')) {
+    console.log('HII');
+  } else {
+    return;
+  }
+});
 
-// let nameFirstIndex = name[0];
-// let nameLastIndex = name[name.length - 1];
-// let dishFirstIndex = dish[0];
-// let dishLastIndex = dish[dish.length - 1];
-
-// if (nameFirstIndex === dishFirstIndex && nameLastIndex === dishLastIndex) {
-//   return true;
-// } else {
-//   return false;
-// }
- 
-// }
-
-
-// if (potluckDish("Jhony", "Jelly") !== true)
-//   console.log("Test fails: Expected true for input name = Jhony and dish = Jelly");
-// else
-//   console.log("Sample test case for input name = Jhony and dish = Jelly passed!");
-
-// let name = 'Johny';
-// let dish = 'Jelly';
-
-
-// let num = 3;
-// let den = 6;
-// // console.log(den);
-
-// if (num===0 && den === 0) {
-//     console.log(num/den);
-// } else {
-//     console.log(0);
-// }
-
-// let array1 = ['item1', 'item2'];
-// let array2 = array1;
-// console.log("array1",array1);
-// console.log("array2",array2);
-// array1.push('item3');
-
-// console.log(array1);
-// console.log(array2);
-
-const arr = [2.2, 1, 3, 1.9, 2.4, 1.7];
-let sum = 0;
-arr.forEach((num) => sum += num);
-let average = sum / arr.length;
-let fixedValue = average.toFixed(5);
-console.log(average);
-
-
-
-
+const newDiv = document.createElement('div');
+newDiv.style.height = '200px';
+newDiv.style.width = '200px';
+newDiv.style.backgroundColor = 'cadetblue';
+// newDiv.addEventListener('click', e => {
+//   console.log('HII');
+// })
+document.body.append(newDiv);
